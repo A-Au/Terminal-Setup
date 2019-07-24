@@ -5,7 +5,7 @@ xcode-select —-install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew cask install iterm2
-brew cask install font-hack-nerd-font
+brew cask install homebrew/cask-fonts/font-hack-nerd-font
 
 brew install wget
 brew install zsh
