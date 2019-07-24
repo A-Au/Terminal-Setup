@@ -14,5 +14,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 upgrade_oh_my_zsh
 
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-echo 'ZSH_THEME="powerlevel9k/powerlevel9k"' >> ~/.zshrc
+sed -i '' 's#ZSH_THEME=".*#ZSH_THEME="powerlevel9k/powerlevel9k"#' ~/.zshrc
 
