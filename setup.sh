@@ -17,3 +17,5 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 sed -i '' 's#ZSH_THEME=".*#ZSH_THEME="powerlevel9k/powerlevel9k"#' ~/.zshrc
 
 defaults write com.apple.finder AppleShowAllFiles YES
+
+brew install thefuck
