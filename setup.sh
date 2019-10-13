@@ -19,3 +19,6 @@ sed -i '' 's#ZSH_THEME=".*#ZSH_THEME="powerlevel9k/powerlevel9k"#' ~/.zshrc
 defaults write com.apple.finder AppleShowAllFiles YES
 
 brew install thefuck
+
+echo 'unsetopt inc_append_history' >> ~/.zshrc
+echo 'unsetopt share_history' >> ~/.zshrc
