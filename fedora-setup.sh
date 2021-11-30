@@ -21,7 +21,7 @@ sed -i '' 's#ZSH_THEME=".*#ZSH_THEME="powerlevel10k/powerlevel10k"#' ~/.zshrc
 dbus-monitor --session "type='signal',interface='org.gnome.ScreenSaver'" |
   while read x; do
     case "$x" in
-      *"boolean false"*) xinput set-button-map "Kensington Kensington Slimblade Trackball" 1 2 3 4 5 6 7 2;;
+      *"boolean false"*) xinput set-button-map "Kensington Slimblade Trackball" 1 2 3 4 5 6 7 2;;
     esac
   done &
 
